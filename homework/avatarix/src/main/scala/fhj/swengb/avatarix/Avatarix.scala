@@ -24,6 +24,8 @@ object Avatarix {
 
   ParserFunctions.getStudentData()
   */
+
+    println(ParserFunctions.oneStudent)
   }
 }
 

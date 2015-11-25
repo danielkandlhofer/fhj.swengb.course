@@ -41,19 +41,21 @@ object ParserFunctions {
     }
     res
   }
-  val valuetest = "deKilla"
-  val studenlist = Students.studentGroup1.toList
-  val students1 = getData(Students.studentGroup1.toList)
-
-  //println(getStudentData(studenlist,valuetest))
-
 
   /*
-  Aufteilung der Studenten in Gruppen
-   */
-
+Aufteilung der Studenten in Gruppen
+ */
+  val students1 = getData(Students.studentGroup1.toList)
   //val students2 = getData(Students.studentGroup2.toList)
   //val students3 = getData(Students.studentGroup3.toList)
+
+  val valuetest = "deKilla"
+  val studenlist = Students.studentGroup1.toList
+
+  val oneStudent = getStudentData(studenlist,valuetest)
+
+
+
 
   val test1 = Map("fgraf" -> List("Felix", "Graf", "Graf-Carello", """https://avatars.githubusercontent.com/u/15038288?v=3"""),
     "ekarimova" -> List("Elza", "Karimova", "elsakarimova", """https://avatars.githubusercontent.com/u/15157578?v=3"""),
