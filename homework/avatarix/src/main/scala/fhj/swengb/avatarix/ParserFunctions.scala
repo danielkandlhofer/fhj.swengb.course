@@ -45,7 +45,7 @@ object ParserFunctions {
   /*
 Aufteilung der Studenten in Gruppen
  */
-  val students1 = getData(Students.studentGroup1.toList)
+  //val students1 = getData(Students.studentGroup1.toList)
   //val students2 = getData(Students.studentGroup2.toList)
   //val students3 = getData(Students.studentGroup3.toList)
 
