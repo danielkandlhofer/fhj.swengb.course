@@ -39,7 +39,7 @@ object ParserFunctions {
     }
     data
   }
-<<<<<<< HEAD
+
 
   /*val valuetest = "deKilla"
   val studenlist = Students.studentGroup1.toList
@@ -47,7 +47,7 @@ object ParserFunctions {
 
   println(getStudentData(studenlist,valuetest))
   */
-=======
+
 
   /**
     * gibt Detaildaten von ausgewählten Students in einer Liste zurück
@@ -67,7 +67,7 @@ object ParserFunctions {
     res
   }
     */
->>>>>>> 2fe52642aabe055d551b2708563c6f01880c9af5
+
 
   /***
     * TEST MAPS für getData()
